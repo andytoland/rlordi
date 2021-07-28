@@ -44,7 +44,7 @@ async function asyncFunction() {
             host: 'localhost',
             user: 'test',
             password: 'test',
-            database: 'rakennuslordi',
+            database: 'test',
         }).then(connection => {
             return connection.query("SELECT * FROM test LIMIT 1") //get row from database return call above
                 .then(rows => {
