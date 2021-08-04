@@ -5,7 +5,7 @@ This is ment to demoonstrate how to use Express JS routing and Mariadb
 
 - Nodejs 10.14+
 - Mariadb 10+ 
--  npm
+- npm
 
 ###INSTALL
 
@@ -35,7 +35,9 @@ database: 'test',`
 
 ###USAGE
 
-To start do `nodejs index.js`. If everything is ok it should listen to port 3000 on your localhost
+To start do `npm start`. If everything is ok it should listen to port 3000 on your localhost
+
+Note that nodemon is in use. So when changing src/index.ts, server will automatically restart
 
 To browse to it base url should  be [http://localhost:3000](http://localhost:3000)
 
